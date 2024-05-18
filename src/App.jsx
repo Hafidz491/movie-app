@@ -3,6 +3,7 @@ import FirstPage from "./pages/firstpage";
 import RegisterPage from "./pages/register";
 import ProtectRoute from "./services/ProtectRoute";
 import DetailPage from "./pages/detailpage";
+import ListMovies from "./pages/listmovies";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/" element={<ProtectRoute />} />
         <Route path="/movies/:id" element={<DetailPage />} />
+        <Route path="/movielist" element={<ListMovies />} />
       </Routes>
     </div>
   );

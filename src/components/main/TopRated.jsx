@@ -73,9 +73,9 @@ const TopRated = () => {
           <h1 className="text-3xl font-bold">Top Rated</h1>
           <div className="w-28 h-8 border px-2 py-2 rounded-3xl">
             <div className="w-full h-full flex justify-center items-center">
-              <a href="">
+              <Link to="/movielist">
                 <span>Show More</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
